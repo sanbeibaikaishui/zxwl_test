@@ -1,0 +1,31 @@
+﻿right:
+ff 01 00 02 00 00 03
+ff 01 00 02 3f 00 42
+
+down:
+ff 01 00 10 00 00 11
+ff 01 00 10 00 27 38
+ff 01 00 10 00 3f 50
+ff 01 00 10 00 39 4a
+
+left:
+ff 01 00 04 00 00 05
+ff 01 00 04 24 00 29
+ff 01 00 04 3f 00 44
+ff 01 00 00 00 00 01
+ff 01 00 00 00 00 01
+
+up:
+ff 01 00 08 00 00 09
+ff 01 00 08 00 1e 27
+ff 01 00 08 00 3c 45
+ff 01 00 08 00 39 42
+ff 01 00 08 00 3f 48
+right:
+{"msgType":"POSTPTZCOMMANDREQ","deviceName":"Camera01","messageType":0,"ptzType":1,"serialCommand":"ff 01 00 02 3f 00 42","serialCmdLen":7}
+left:
+{"msgType":"POSTPTZCOMMANDREQ","deviceName":"Camera01","messageType":0,"ptzType":1,"serialCommand":"ff 01 00 04 3f 00 44","serialCmdLen":7}
+up:
+{"msgType":"POSTPTZCOMMANDREQ","deviceName":"Camera01","messageType":0,"ptzType":1,"serialCommand":"ff 01 00 08 00 3f 48","serialCmdLen":7}
+down:
+{"msgType":"POSTPTZCOMMANDREQ","deviceName":"Camera01","messageType":0,"ptzType":1,"serialCommand":"ff 01 00 10 00 39 4a","serialCmdLen":7}
